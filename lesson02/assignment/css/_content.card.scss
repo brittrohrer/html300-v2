@@ -16,7 +16,6 @@
         margin: .5rem;
         color: $darker-gray;
         font-size: $largest;
-        
     }
     img {
         width: 80%;
@@ -31,9 +30,7 @@
         margin: .5rem;
         padding-top: 1rem;
     }
-}
-    
-    
+}  
 .card-information {
     background-color: $gray;
     padding: $card-padding;
@@ -53,6 +50,13 @@
         font-weight: normal;
         align-content:center ;
         font-size: $small;
+    }
+    a {
+        text-decoration: none;
+        color: $darker-gray;
+    }
+    img {
+       vertical-align: middle;
     }
 }
    
