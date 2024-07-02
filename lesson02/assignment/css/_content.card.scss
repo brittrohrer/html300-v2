@@ -16,12 +16,20 @@
     padding: $card-padding;
 
     h1 {
-        margin: 0;
+        margin: .5rem;
         color: $darker-gray;
+        font-size: $largest;
     }
     img {
-        width: 10rem;
+        width: 80%;
         border-radius: 50%;
+    }
+    p {
+        font-style: italic;
+        font-size: $large;
+        color: $darker-gray;
+        font-weight: lighter;
+        margin: .5rem;
     }
 }
     
@@ -33,16 +41,18 @@
 
     div {
         display: flex;
-        gap: $card-padding;
+        gap: 1rem;
     }
     h2 {
         color: $darker-gray;
         font-weight: bold;
+        font-size: $medium;
     }
     p {
         color: $darker-gray;
         font-weight: normal;
         align-content:center ;
+        font-size: $small;
     }
 }
    
