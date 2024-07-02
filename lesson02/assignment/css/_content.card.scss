@@ -1,8 +1,3 @@
-.main {
-    padding: 2rem;
-    
-}
-
 .card-container {
     background-color: $white;
     border: solid $dark-gray 3rem;
@@ -14,15 +9,19 @@
 .card-profile {
     text-align: center;
     padding: $card-padding;
+    display: flex;
+    flex-direction: column-reverse;
 
     h1 {
         margin: .5rem;
         color: $darker-gray;
         font-size: $largest;
+        
     }
     img {
         width: 80%;
         border-radius: 50%;
+        margin: auto;
     }
     p {
         font-style: italic;
@@ -30,6 +29,7 @@
         color: $darker-gray;
         font-weight: lighter;
         margin: .5rem;
+        padding-top: 1rem;
     }
 }
     
