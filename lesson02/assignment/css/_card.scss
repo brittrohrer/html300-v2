@@ -1,0 +1,29 @@
+.main {
+    padding: 2rem;
+    
+}
+
+.card-container {
+    background-color: $white;
+    border: solid $dark-gray 5rem;
+    display: flex;
+}
+.card-profile {
+    text-align: center;
+    padding: 4rem;
+}
+    h1 {
+    color: $darker-gray;
+    }
+    
+.card-information {
+    background-color: $gray;
+}
+    h2 {
+        color: $darker-gray;
+        font-weight: bold;
+    }
+    p {
+        color: $darker-gray;
+        font-weight: normal;
+    }
