@@ -1,0 +1,48 @@
+.main {
+    padding: 2rem;
+    
+}
+
+.card-container {
+    background-color: $white;
+    border: solid $dark-gray 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: $card-padding;
+    padding: $card-padding;
+}
+.card-profile {
+    text-align: center;
+    padding: $card-padding;
+
+    h1 {
+        margin: 0;
+        color: $darker-gray;
+    }
+    img {
+        width: 10rem;
+        border-radius: 50%;
+    }
+}
+    
+    
+.card-information {
+    background-color: $gray;
+    padding: $card-padding;
+    width: 100%;
+
+    div {
+        display: flex;
+        gap: $card-padding;
+    }
+    h2 {
+        color: $darker-gray;
+        font-weight: bold;
+    }
+    p {
+        color: $darker-gray;
+        font-weight: normal;
+        align-content:center ;
+    }
+}
+   
