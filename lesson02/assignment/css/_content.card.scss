@@ -9,20 +9,18 @@
 }
 .card-profile {
     text-align: center;
-    padding: $card-padding;
     display: flex;
     flex-direction: column-reverse;
 
     .profile-text {
-        padding: 1rem;
-        margin: .5rem;
+        margin: .5rem 0;
     }
     h1 {
         color: $darker-gray;
         font-size: $largest;
     }
     img {
-        width: 80%;
+        width: 100%;
         border-radius: 50%;
         margin: auto;
     }
