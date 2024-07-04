@@ -1,6 +1,7 @@
 .card-container {
     background-color: $white;
     border: solid $dark-gray 3rem;
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
     gap: $card-padding;
